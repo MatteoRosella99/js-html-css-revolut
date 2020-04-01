@@ -1,0 +1,40 @@
+$('#tag1').hover(
+  function(){
+    $('.n1').slideDown(0);
+    $('.n2').fadeOut(0);
+    $('.n3').fadeOut(0);
+    $('.n4').fadeOut(0);
+  }
+)
+$('#tag2').hover(
+  function(){
+    $('.n2').slideDown(0);
+    $('.n1').fadeOut(0);
+    $('.n3').fadeOut(0);
+    $('.n4').fadeOut(0);
+  }
+)
+$('#tag3').hover(
+  function(){
+    $('.n3').slideDown(0);
+    $('.n2').fadeOut(0);
+    $('.n1').fadeOut(0);
+    $('.n4').fadeOut(0);
+  }
+)
+$('#tag4').hover(
+  function(){
+    $('.n4').slideDown(0);
+    $('.n2').fadeOut(0);
+    $('.n3').fadeOut(0);
+    $('.n1').fadeOut(0);
+  }
+)
+$('body').click(
+  function(){
+    $('.n4').fadeOut(0);
+    $('.n2').fadeOut(0);
+    $('.n3').fadeOut(0);
+    $('.n1').fadeOut(0);
+  }
+)

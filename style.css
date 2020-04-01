@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 1000px;
+}
+h1{
+  font-size: 32px;
+  padding-right: 50px;
+}
+nav{
+  width: 80%;
+  margin: auto;
+}
+.n1, .n2, .n3, .n4{
+  display: none;
+  position: absolute;
+}
+.nav-lista{
+  padding-left: 5px;
+  background-color: yellow;
+  border: 1px solid black;
+  width: 150px;
+}
+.nav-lista > li{
+  padding-top: 14px;
+}
+.left{
+  float: left;
+}
+.left > ul{
+  padding-left: 0
+}
+.left > ul > li{
+  display: inline-block;
+  padding: 0 15px;
+}
+.right{
+  float: right;
+}
+.right > ul{
+  padding-top: 17px;
+}
+.right > ul > li{
+  display: inline-block;
+  margin-left: 40px;
+}
+h3:hover{
+  cursor: pointer
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1250px) {
+  .right{
+    display: none;
+  }
+}
